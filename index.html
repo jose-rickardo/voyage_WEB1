@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="part1">
+        <h1>login</h1>
+        <p>Enter your credentials to access a word of travel <br>opportunities.personalised itineraries.and exclusive deals.<br>Let's explore the word together!</p>
+        <div class="partie1-email">
+            <img src="image/person.png" alt="" class="png-email">
+            <input type="text" placeholder="hei.nom@gmail.com" id="email-input" autocomplete="on">
+        </div>
+
+        <div class="just-espacement"></div>
+
+        <div class="mot_de_pass-email">
+            <img src="image/password-28-removebg-preview.png" alt="" class="png-password">
+            <input type="password" id="password-input">
+        </div>
+
+        <a id="part1-validation" ><button onclick="validEmailAndPassword()" id="bouton" type="submit">Login Now</button></a>
+
+        <div id="eror">
+            <img src="image/icons8-erreur-50.png" alt="" class="eror-png">
+            <p id="eror-message">email or password invalid</p>
+        </div>
+    </div>
+
+    <div class="part2">
+        <div class="content_vrom"><img src="image/plane.png" alt="image_avion" class="vrom"></div>
+        <div class="content_photo"><img src="image/loginImage.png" alt="loginphoto" class="photo"></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
